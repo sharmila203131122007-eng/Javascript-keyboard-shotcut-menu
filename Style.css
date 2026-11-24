@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f0fe;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    background: #f1f5f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.menu.show {
+    display: block;
+}
+
+#message {
+    margin-top: 20px;
+    color: #2563eb;
+}
